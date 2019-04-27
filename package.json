@@ -1,0 +1,23 @@
+{
+  "name": "cs3043-gerrymeandering",
+  "version": "1.0.0",
+  "description": "CS3043 Project 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OurGroupProjects/cs3043-gerrymeandering.git"
+  },
+  "author": "Ryan Racine, Karsten Roberts, Isaac Woods",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OurGroupProjects/cs3043-gerrymeandering/issues"
+  },
+  "homepage": "https://github.com/OurGroupProjects/cs3043-gerrymeandering#readme",
+  "dependencies": {
+    "d3": "^5.9.2",
+    "topojson-server": "^3.0.0"
+  }
+}
