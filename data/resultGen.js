@@ -127,22 +127,5 @@ function doShit(congress) {
     });
     return l;
   }
-
-  function json2CSV(data) {
-    console.log(data);
-
-
-    const replacer = (key, value) => value === null ? '' : value; // specify how you want to handle null values here
-    const header = Object.keys(data);
-    let csv = items.map(row => header.map(fieldName => JSON.stringify(row[fieldName], replacer)).join(','));
-    csv.unshift(header.join(','));
-    csv = csv.join('\r\n');
-
-    return csv;
-  }
-
-  function writeData(data) {
-    fs.writeFile('districtData.csv', data);
-  }
 }
 
