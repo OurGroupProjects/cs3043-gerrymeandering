@@ -7,7 +7,7 @@ base_file_name = 'districts'
 file_extension = '.zip'
 num_padding = 3
 last_district = 114
-num_processes = 4
+num_processes = 10
 
 def getDistrictInfo(i):
     num = i+1
